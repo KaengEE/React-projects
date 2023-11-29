@@ -1,5 +1,13 @@
+import { Hero } from "./Hero";
+import { Projects } from "./Projects";
+
 function App() {
-  return <>프로젝트</>;
+  return (
+    <main>
+      <Hero />
+      <Projects />
+    </main>
+  );
 }
 
 export default App;
