@@ -8,34 +8,37 @@ const Profile = () => {
 
   return (
     <div className="profile">
-      <h5>Contact Me : </h5>
-      <p>
-        <a href="https://github.com/KaengEE" target="_blank">
-          <FaGithub
-            className="icon"
-            style={{ fontSize: "24px", color: "black" }}
-          />
-        </a>
-      </p>
-      <p>
-        <a
-          href="https://blog.naver.com/coding_ori/223265349655"
-          target="_blank"
-        >
-          <SiNaver
-            className="icon"
-            style={{ fontSize: "22px", color: "#2DB400" }}
-          />
-        </a>
-      </p>
-      <p>
-        <a href={`mailto:${email}`}>
-          <IoMdMail
-            style={{ fontSize: "24px", color: "#000" }}
-            className="icon"
-          />
-        </a>
-      </p>
+      <p>Project by. KaengEE</p>
+      <div className="contact">
+        <h5>Contact Me : </h5>{" "}
+        <p>
+          <a href="https://github.com/KaengEE" target="_blank">
+            <FaGithub
+              className="icon"
+              style={{ fontSize: "24px", color: "black" }}
+            />
+          </a>
+        </p>
+        <p>
+          <a
+            href="https://blog.naver.com/coding_ori/223265349655"
+            target="_blank"
+          >
+            <SiNaver
+              className="icon"
+              style={{ fontSize: "22px", color: "#2DB400" }}
+            />
+          </a>
+        </p>
+        <p>
+          <a href={`mailto:${email}`}>
+            <IoMdMail
+              style={{ fontSize: "24px", color: "#000" }}
+              className="icon"
+            />
+          </a>
+        </p>
+      </div>
     </div>
   );
 };

@@ -388,13 +388,34 @@ PROJECTS
 /* 프로필 */
 .profile {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: auto;
   height: 150px;
   background-color: #fff;
 }
 
-.profile .icon {
-  margin: 0 10px;
+.project-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* project-info와 contact 간격 조절 */
+}
+
+.project-by,
+.contact {
+  margin-right: 10px; /* project by와 contact 간격 조절 */
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* 아이콘들 세로 정렬 */
+.contact .icon {
+  margin-left: 10px;
+  margin-bottom: 5px; /* 아이콘들 간격 조절 */
 }
