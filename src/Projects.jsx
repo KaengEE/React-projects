@@ -1,5 +1,5 @@
 import React from "react";
-import p1 from "./assets/p1.png";
+import { projects } from "./data";
 
 export const Projects = () => {
   return (
@@ -9,42 +9,21 @@ export const Projects = () => {
         <div className="title-underline"></div>
       </div>
       <div className="projects-center">
-        <a
-          href="./assets/birthday.png"
-          target="_blank"
-          rel="noreferrer"
-          className="project"
-        >
-          <img src={p1} alt="birthday buddy" className="img" />
-          <h5>birthday buddy</h5>
-        </a>
-        <a
-          href="./assets/birthday.png"
-          target="_blank"
-          rel="noreferrer"
-          className="project"
-        >
-          <img src={p1} alt="birthday buddy" className="img" />
-          <h5>birthday buddy</h5>
-        </a>
-        <a
-          href="./assets/birthday.png"
-          target="_blank"
-          rel="noreferrer"
-          className="project"
-        >
-          <img src={p1} alt="birthday buddy" className="img" />
-          <h5>birthday buddy</h5>
-        </a>
-        <a
-          href="./assets/birthday.png"
-          target="_blank"
-          rel="noreferrer"
-          className="project"
-        >
-          <img src={p1} alt="birthday buddy" className="img" />
-          <h5>birthday buddy</h5>
-        </a>
+        {/* data 반복문 */}
+        {projects.map((data) => {
+          return (
+            <a
+              href={data.url}
+              target="_blank"
+              rel="noreferrer"
+              className="project"
+              key={data.id}
+            >
+              <img src={data.image} alt={data.title} className="img" />
+              <h5>{data.title}</h5>
+            </a>
+          );
+        })}
       </div>
     </section>
   );
