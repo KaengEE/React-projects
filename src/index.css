@@ -370,3 +370,17 @@ PROJECTS
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+
+/* 프로필 */
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 150px;
+  background-color: #fff;
+}
+
+.profile .icon {
+  margin: 0 10px;
+}
