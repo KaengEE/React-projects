@@ -18,7 +18,10 @@ const Profile = () => {
         </a>
       </p>
       <p>
-        <a href="https://blog.naver.com/coding_ori" target="_blank">
+        <a
+          href="https://blog.naver.com/coding_ori/223265349655"
+          target="_blank"
+        >
           <SiNaver
             className="icon"
             style={{ fontSize: "22px", color: "#2DB400" }}
