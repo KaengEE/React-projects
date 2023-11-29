@@ -90,6 +90,7 @@ h5 {
 
 h1 {
   font-size: clamp(2rem, 5vw, 5rem); /* Large heading */
+  color: #504acc;
 }
 
 h2 {
