@@ -92,6 +92,9 @@ h1 {
   font-size: clamp(2rem, 5vw, 5rem); /* Large heading */
   color: #504acc;
 }
+.icon {
+  font-size: clamp(2rem, 5vw, 5rem); /* Large heading */
+}
 
 h2 {
   font-size: clamp(1.5rem, 3vw, 3rem); /* Medium heading */
@@ -293,6 +296,13 @@ body {
   justify-content: center;
   padding: 5rem;
 }
+
+.hero-title a {
+  text-decoration: none;
+  color: var(--textColor);
+  font-weight: bold;
+}
+
 .img-container {
   display: none;
 }
@@ -303,6 +313,9 @@ body {
 .hero-title h1 {
   margin-bottom: 2rem;
   font-weight: 700;
+}
+.icon {
+  margin-left: 0.5rem;
 }
 .hero-title p {
   line-height: 2;
