@@ -1,4 +1,5 @@
 import React from "react";
+import heroImg from "./assets/hero.svg";
 
 export const Hero = () => {
   return (
