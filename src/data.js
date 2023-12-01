@@ -6,6 +6,7 @@ import p5 from "./assets/movieApp(ver1).png";
 import p6 from "./assets/movieApp(ver2).png";
 import p7 from "./assets/cooking.png";
 import p8 from "./assets/image-gallery.png";
+import p9 from "./assets/githubFinder.png";
 
 export const projects = [
   {
@@ -55,5 +56,11 @@ export const projects = [
     title: "Image Gallery",
     url: "https://react-image-gallery-kaengee.netlify.app/",
     image: p8,
+  },
+  {
+    id: 9,
+    title: "GitHub Finder",
+    url: "https://react-github-kaengee.netlify.app/",
+    image: p9,
   },
 ];

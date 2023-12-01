@@ -18,6 +18,7 @@ _<p style="color: gray">각각 프로젝트의 제목을 클릭하면 해당 프
 6. <a href="https://github.com/KaengEE/React-movieapp2" style="font-weight: bold">Movie App(버전2)</a> : 버전1에 기능을 추가한 프로젝트. 리액트 라우터 라이브러리를 사용하여 한페이지에 나타나도록 하였고 영화의 개별 상세페이지 추가
 7. <a href="https://github.com/KaengEE/React-cooking-recipe" style="font-weight: bold">Cooking App</a> : firebase를 사용하여 백엔드를 연결하였다. 레시피 추가와 삭제가 가능하다. 검색은 제목만 검색가능
 8. <a href="https://github.com/KaengEE/React-image-gallery" style="font-weight: bold">Image Gallery</a> : 이전 css project에서 만든 코드를 React로 변환한 프로젝트이다. API 활용하여 이미지를 가져오고 검색이 가능
+9. <a href="https://github.com/KaengEE/React-Github-Finder" style="font-weight: bold">GitHub Finder</a> : 깃허브의 유저를 검색하고 해당 유저의 프로필정보와 최근 Repositories를 보여줌
 
 ### 배포링크
 
