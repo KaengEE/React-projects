@@ -8,7 +8,9 @@ const Profile = () => {
 
   return (
     <div className="profile">
-      <p>Project by. KaengEE</p>
+      <p>
+        Project by <b>KaengEE</b>
+      </p>
       <div className="contact">
         <h5>Contact Me : </h5>{" "}
         <p>
@@ -26,7 +28,7 @@ const Profile = () => {
           >
             <SiNaver
               className="icon"
-              style={{ fontSize: "22px", color: "#2DB400" }}
+              style={{ fontSize: "20px", color: "#2DB400" }}
             />
           </a>
         </p>
