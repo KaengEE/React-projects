@@ -9,6 +9,7 @@ import p8 from "./assets/image-gallery.png";
 import p9 from "./assets/githubFinder.png";
 import p10 from "./assets/myMoney.png";
 import p11 from "./assets/myTodo.png";
+import p12 from "./assets/smallTalk.png";
 
 export const projects = [
   {
@@ -76,5 +77,11 @@ export const projects = [
     title: "Todo List",
     url: "https://react-todo-kaengee.netlify.app/",
     image: p11,
+  },
+  {
+    id: 12,
+    title: "Small Talk",
+    url: "https://smallchat-kaengee.netlify.app/",
+    image: p12,
   },
 ];
