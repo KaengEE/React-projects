@@ -21,6 +21,7 @@ _<p style="color: gray">각각 프로젝트의 제목을 클릭하면 해당 프
 9. <a href="https://github.com/KaengEE/React-Github-Finder" style="font-weight: bold">GitHub Finder</a> : 깃허브의 유저를 검색하고 해당 유저의 프로필정보와 최근 Repositories를 보여줌
 10. <a href="https://github.com/KaengEE/React-my-money" style="font-weight: bold">My Money</a> : 유저가 자신의 거래내역을 실시간으로 확인 및 추가, 삭제 가능
 11. <a href="https://github.com/KaengEE/FB9-todoList" style="font-weight: bold">ToDo List</a> : 사용자별 todo리스트, firebase를 활용하여 입력/수정/삭제 가능
+12. <a href="https://github.com/KaengEE/React-chatApp" style="font-weight: bold">Small Talk</a> : 구글 로그인을 하여 인증된 사용자들의 채팅앱, 채팅 시간, 유저명, 프로필 사진등 간단한 정보를 알 수 있으며 실시간으로 서로 채팅을 즐길 수 있음
 
 ### 배포링크
 
