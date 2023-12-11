@@ -10,6 +10,7 @@ import p9 from "./assets/githubFinder.png";
 import p10 from "./assets/myMoney.png";
 import p11 from "./assets/myTodo.png";
 import p12 from "./assets/smallTalk.png";
+import p13 from "./assets/Nwitter.png";
 
 export const projects = [
   {
@@ -83,5 +84,11 @@ export const projects = [
     title: "Small Talk",
     url: "https://smallchat-kaengee.netlify.app/",
     image: p12,
+  },
+  {
+    id: 13,
+    title: "Nwitter",
+    url: "https://nwitter-kaengee.web.app/",
+    image: p13,
   },
 ];
