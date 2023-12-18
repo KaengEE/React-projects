@@ -23,6 +23,7 @@ _<p style="color: gray">각각 프로젝트의 제목을 클릭하면 해당 프
 11. <a href="https://github.com/KaengEE/FB9-todoList" style="font-weight: bold">ToDo List</a> : 사용자별 todo리스트, firebase를 활용하여 입력/수정/삭제 가능
 12. <a href="https://github.com/KaengEE/React-chatApp" style="font-weight: bold">Small Talk</a> : 구글 로그인을 하여 인증된 사용자들의 채팅앱, 채팅 시간, 유저명, 프로필 사진등 간단한 정보를 알 수 있으며 실시간으로 서로 채팅을 즐길 수 있음
 13. <a href="https://github.com/KaengEE/React-Nwitter" style="font-weight: bold">Nwitter</a> : 깃허브, 구글 로그인이 가능한 트위터st의 SNS, firestorage를 활용하여 이미지파일을 저장, 로그인된 유저의 정보수정, 트윗 작성 및 삭제가 가능한 커뮤니티
+14. <a href="https://github.com/KaengEE/Movie-Stars" style="font-weight: bold">MovieStars</a> : react+firebase 프로젝트로 영화평점사이트, 기존의 Movie app을 기초로 여러 라이브러리를 사용하여 로그인/마이페이지/페이징/평점 등을 구현함
 
 ### 배포링크
 
