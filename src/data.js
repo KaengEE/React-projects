@@ -12,6 +12,7 @@ import p11 from "./assets/myTodo.png";
 import p12 from "./assets/smallTalk.png";
 import p13 from "./assets/Nwitter.png";
 import p14 from "./assets/moviestars.png";
+import p15 from "./assets/mycart.png";
 
 export const projects = [
   {
@@ -97,5 +98,11 @@ export const projects = [
     title: "Movie Stars",
     url: "https://movie-stars-kaengee.netlify.app/",
     image: p14,
+  },
+  {
+    id: 15,
+    title: "My Cart",
+    url: "https://mycart-kaengee.netlify.app/",
+    image: p15,
   },
 ];
