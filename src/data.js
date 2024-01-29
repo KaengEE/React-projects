@@ -107,25 +107,47 @@ export const projects = [
 // 프론트 + 백엔드
 export const fullProject = [
   {
-    id: 15,
+    id: 1,
     title: "My Cart",
     url: "https://mycart-kaengee.netlify.app/",
     image: p15,
   },
   {
-    id: 16,
+    id: 2,
     title: "유저관리",
     url: "https://react-springboot-keangee.netlify.app/",
     image: p16,
   },
   {
-    id: 17,
+    id: 3,
     title: "Simple Shop",
     url: "https://react-shop-kaengee.netlify.app/",
     image: p17,
   },
   {
-    id: 18,
+    id: 4,
+    title: "With Hobby",
+    url: "https://withhobby.netlify.app/",
+    image: p18,
+  },
+];
+
+//메인프로젝트
+export const mainProjects = [
+  {
+    id: 1,
+    title: "Nwitter",
+    url: "https://nwitter-kaengee.web.app/",
+    image: p13,
+  },
+  {
+    id: 2,
+    title: "Movie Stars",
+    url: "https://movie-stars-kaengee.netlify.app/",
+    image: p14,
+  },
+  {
+    id: 3,
     title: "With Hobby",
     url: "https://withhobby.netlify.app/",
     image: p18,
