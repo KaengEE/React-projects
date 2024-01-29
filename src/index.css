@@ -419,3 +419,7 @@ PROJECTS
   margin-left: 10px;
   margin-bottom: 5px; /* 아이콘들 간격 조절 */
 }
+
+.blank {
+  padding: 40px;
+}

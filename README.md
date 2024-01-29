@@ -28,6 +28,9 @@ _<p style="color: gray">각각 프로젝트의 제목을 클릭하면 해당 프
 ### 풀스택 (프론트 + 백엔드)
 
 1. <a href="https://github.com/KaengEE/myCart" style="font-weight: bold">My Cart</a> : 몽고DB로 백엔드 활용하여 만든 간단 쇼핑몰, 로그인/상품목록/장바구니 구현
+2. <a href="https://github.com/KaengEE/fullstack-frontend" style="font-weight: bold">User Manger</a> : 간단한 유저관리 페이지, Axios를 활용하여 서버에 유저 정보를 저장 및 조회
+3. <a href="https://github.com/KaengEE/react-shop" style="font-weight: bold">Simple Shop</a> : 스프링부트를 사용해서 백엔드를 만들고 프론트엔드에서 로그인/회원가입, 제품 추가/삭제/수정, 제품 구매, 유저 권한 변경을 구현해 본 프로젝트
+4. <a href="https://github.com/KaengEE/withhobby" style="font-weight: bold">WithHobby</a> : Spring Boot + React 프로젝트로 여러 사람들이 자신의 취미를 공유하고 모임을 만들 수 있는 공간을 만들고자 함.
 
 ### 배포링크
 

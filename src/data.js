@@ -13,6 +13,9 @@ import p12 from "./assets/smallTalk.png";
 import p13 from "./assets/Nwitter.png";
 import p14 from "./assets/moviestars.png";
 import p15 from "./assets/mycart.png";
+import p16 from "./assets/user.png";
+import p17 from "./assets/reactShop.png";
+import p18 from "./assets/withHobby.png";
 
 export const projects = [
   {
@@ -99,10 +102,32 @@ export const projects = [
     url: "https://movie-stars-kaengee.netlify.app/",
     image: p14,
   },
+];
+
+// 프론트 + 백엔드
+export const fullProject = [
   {
     id: 15,
     title: "My Cart",
     url: "https://mycart-kaengee.netlify.app/",
     image: p15,
+  },
+  {
+    id: 16,
+    title: "유저관리",
+    url: "https://react-springboot-keangee.netlify.app/",
+    image: p16,
+  },
+  {
+    id: 17,
+    title: "Simple Shop",
+    url: "https://react-shop-kaengee.netlify.app/",
+    image: p17,
+  },
+  {
+    id: 18,
+    title: "With Hobby",
+    url: "https://withhobby.netlify.app/",
+    image: p18,
   },
 ];
